@@ -26,6 +26,9 @@ public:
 
 	Node<T>* Find(T value);
 
+	Node<T>* MinBranch(Node<T>* node = nullptr);
+	Node<T>* MaxBranch(Node<T>* node = nullptr);
+
 	void DeleteNode(Node<T>* node);
 	void DeleteBranch(Node<T>* node);
 
